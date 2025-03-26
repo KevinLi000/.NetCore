@@ -1,2 +1,1 @@
-# .NetCore
-The test repository for AI
+The test repository for .NetCore
