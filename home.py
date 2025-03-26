@@ -1,2 +1,2 @@
-#This is the entrance to excute the main method
-Print('Hello, World')
+def main():
+    print('Hello, World')
