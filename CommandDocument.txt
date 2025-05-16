@@ -1,2 +1,4 @@
 # This is the command for new console
-dotnet new console -n HelloWorld
+dotnet new console -n HelloWorld
+# This is the command for build project
+dotnet build
