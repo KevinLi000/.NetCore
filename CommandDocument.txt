@@ -7,4 +7,6 @@ dotnet run
 # This is the command for create class
 dotnet new cls -n MyCustomClass
 # This is the command for create class to the specific folder
-dotnet new cls -o Models -n Product
+dotnet new cls -o Models -n Product
+# This is the command for create a new interface file
+dotnet new interface -n IMyService
