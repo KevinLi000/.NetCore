@@ -9,4 +9,6 @@ dotnet new cls -n MyCustomClass
 # This is the command for create class to the specific folder
 dotnet new cls -o Models -n Product
 # This is the command for create a new interface file
-dotnet new interface -n IMyService
+dotnet new interface -n IMyService
+# This is the command for create a new interface file to specific folder
+dotnet new interface -o Interfaces -n IRepository
