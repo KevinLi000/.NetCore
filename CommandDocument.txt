@@ -56,4 +56,5 @@ namespace YourNamespace
 }
 ## Options
 - `-n|--name` - Sets the name of the interface
+- `-o|--output` - Specifies the directory to place the generated file
 
