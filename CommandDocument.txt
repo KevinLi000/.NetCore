@@ -1,1 +1,2 @@
+# This is the command for new console
 dotnet new console -n HelloWorld
