@@ -3,4 +3,6 @@ dotnet new console -n HelloWorld
 # This is the command for build project
 dotnet build
 # This is the command for run project
-dotnet run
+dotnet run
+# This is the command for create class
+dotnet new cls -n MyCustomClass
