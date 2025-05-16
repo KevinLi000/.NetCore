@@ -5,4 +5,6 @@ dotnet build
 # This is the command for run project
 dotnet run
 # This is the command for create class
-dotnet new cls -n MyCustomClass
+dotnet new cls -n MyCustomClass
+# This is the command for create class to the specific folder
+dotnet new cls -o Models -n Product
