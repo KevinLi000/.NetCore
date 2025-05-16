@@ -19,4 +19,41 @@ namespace YourNamespace
     {
         
     }
-}
+}
+# Creating a New C# Interface File
+
+The `dotnet new interface` command creates a new C# interface file template.
+
+## What This Does
+
+This command generates a basic `.cs` file with an empty interface declaration. By default, it uses the current directory name as the namespace and "Interface1" as the interface name.
+
+## Example Usage
+
+To create an interface with a custom name:
+
+```bash
+dotnet new interface -n IMyService
+```
+
+To create the interface in a specific folder:
+
+```bash
+dotnet new interface -o Interfaces -n IRepository
+```
+
+## Generated File Example
+
+The command will create a file that looks something like this:
+
+```csharp
+namespace YourNamespace
+{
+    public interface Interface1
+    {
+        
+    }
+}
+## Options
+- `-n|--name` - Sets the name of the interface
+
