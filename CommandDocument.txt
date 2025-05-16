@@ -11,4 +11,12 @@ dotnet new cls -o Models -n Product
 # This is the command for create a new interface file
 dotnet new interface -n IMyService
 # This is the command for create a new interface file to specific folder
-dotnet new interface -o Interfaces -n IRepository
+dotnet new interface -o Interfaces -n IRepository
+Example:
+namespace YourNamespace
+{
+    public interface Interface1
+    {
+        
+    }
+}
